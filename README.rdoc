@@ -18,15 +18,12 @@ Create config/application.yml & enter your own credentials
       ffmpeg_location: "FFMPEG_LOCATION"
       s3_bucket: "S3_BUCKET"
 	
-Install FFMPEG, determine binary path using => 
-``
-	$ which ffmpeg
+Install FFMPEG, determine binary path using:
+    $ which ffmpeg
 	
-Sublime video works nicely, sign up and download the sublime.js file.
-``
-	http://sublimevideo.net/	
+Sublime video works nicely, sign up and download the sublime.js file:
+    http://sublimevideo.net/	
 
-Setup and create the DB
-```
-	rake db:create, rake db:migrate
-	rake jobs:work if using the delayed screenshot # not used by default
+Setup and create the DB:
+    rake db:create, rake db:migrate
+    rake jobs:work if using the delayed screenshot # not used by default
