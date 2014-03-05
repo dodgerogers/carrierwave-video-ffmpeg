@@ -13,7 +13,7 @@ class VideosController < ApplicationController
     @video = Video.create(params[:video])
     respond_to do |format|
       if @video.save
-        @video.delay.take_screenshot
+        @video.take_screenshot # => optional @video.delay.screenshot
         format.html { redirect_to videos_path, notice: "Video created" }
         format.js
       else

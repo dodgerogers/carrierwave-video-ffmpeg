@@ -7,6 +7,18 @@ gem 'rails', '3.2.14'
 
 gem 'pg'
 
+group :test do
+  gem 'rspec-rails', '2.9.0'
+  gem 'factory_girl_rails', '1.4.0'
+  gem 'capybara'
+  gem 'capybara-webkit'
+  gem 'database_cleaner'
+  gem "launchy"
+  gem "simplecov","0.7.1", :require => false
+  gem 'shoulda-matchers', :require => false
+end
+
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
