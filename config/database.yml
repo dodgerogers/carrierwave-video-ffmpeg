@@ -4,7 +4,7 @@ development:
   encoding: unicode
   database: carrierwave_development
   pool: 5
-  username: andrew
+  username:
   password: 
   port: 5432      
   host: localhost
@@ -14,7 +14,7 @@ test:
   encoding: unicode
   database: carrierwave_test
   pool: 5
-  username: andrew
+  username:
   password:
   port: 5432      
   host: localhost

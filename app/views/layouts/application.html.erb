@@ -15,26 +15,23 @@
     <%= javascript_include_tag "application" %>
   </head>
   <body>
-
     <div class="navbar navbar-top">
       <div class="navbar-inner">
         <div class="container">
           <%= link_to "CarrierWave Video", root_path, class: "brand" %>
           <div class="container nav-collapse">
             <ul class="nav">
-    
             </ul>
-          </div><!--/.nav-collapse -->
+          </div>
         </div>
       </div>
     </div>
-
     <div class="container">
       <%= bootstrap_flash %>
       <%= yield %>
       <footer>
         <small>&copy; CarrierWave Video jQuery example</small>
       </footer>
-    </div> <!-- /container -->
+    </div>
   </body>
 </html>
