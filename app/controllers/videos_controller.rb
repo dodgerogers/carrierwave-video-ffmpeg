@@ -22,7 +22,7 @@ class VideosController < ApplicationController
       end
     end
   end
-
+    
   def destroy
     @video = Video.find(params[:id]).destroy
     respond_to do |format|
