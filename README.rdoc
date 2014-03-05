@@ -19,7 +19,7 @@ Create config/application.yml & enter your own credentials
       s3_bucket: "S3_BUCKET"
 	
 Install FFMPEG, determine binary path using:
-    $ which ffmpeg
+    $ which ffmpeg # => /usr/local/bin/ffmpeg
 	
 Sublime video works nicely, sign up and download the sublime.js file:
     http://sublimevideo.net/	
