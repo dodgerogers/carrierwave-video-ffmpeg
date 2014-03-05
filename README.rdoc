@@ -1,4 +1,4 @@
-== CarrierWave Video, FFMPEG encoding and screenshots, jQuery FileUpload
+== CarrierWave Video, FFMPEG encoding, jQuery FileUpload
 
 Simple rails 3.2.14 app which uses CarrierWave and FFMPEG to upload videos using jQuery FileUpload to AWS S3. App uses PG DB and optional delayed job to handle the screenshots.
 
