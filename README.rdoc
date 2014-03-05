@@ -3,11 +3,11 @@
 Simple rails 3.2.14 app which uses CarrierWave and FFMPEG to upload videos using jQuery FileUpload to AWS S3. App uses PG DB and optional delayed job to handle the screenshots.
 
 1. Create config/application.yml & enter your own credentials
-	aws_secret_key_id: "SECRET_ID"
-	aws_access_key_id: "ACCESS_KEY"
-	sublime_token: "SUBLIME_VIDEO_TOKEN" # optional for sublime video player
-	app_secret_token: 'APP_SECRET_TOKEN'
-	development:
+	#aws_secret_key_id: "SECRET_ID"
+	#aws_access_key_id: "ACCESS_KEY"
+	#sublime_token: "SUBLIME_VIDEO_TOKEN" # optional for sublime video player
+	#app_secret_token: 'APP_SECRET_TOKEN'
+	#development:
 	  ffmpeg_location: "FFMPEG_LOCATION"
 	  s3_bucket: "S3_BUCKET"
 	test:    
