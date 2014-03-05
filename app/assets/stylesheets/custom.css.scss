@@ -1,0 +1,62 @@
+@import "variables";
+
+.container {
+	max-width:940px;
+}
+
+footer {
+	margin:20px auto;
+}
+
+.videos {
+	display: inline-block;
+	position: relative;
+	vertical-align:top;
+	padding: 0px;
+	margin: 0px 15px 15px 0px;
+	width: 200px;
+	@include box-sizing;
+	h4, h4 a {
+		margin: 0px;
+		padding: 0px 0px;
+		padding: 0px 2px 0px 2px;
+	}
+	.loading {
+		position: absolute;
+		top: 15%;
+		left: 36%;
+		height: 50px;
+		width: 50px;
+		display:none;
+	}
+}
+img.mini_load {
+	display:inline;
+	text-align:left;
+	padding: 0px 5px 0 0;
+	height:30px;
+	width:30px;
+	text-align:left;
+}
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	display:inline-block;
+}
+.fileUpload input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.red {
+	color: #e95a4d;
+}
+.green {
+	color: #4fc392;
+}

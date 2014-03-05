@@ -1,0 +1,15 @@
+# Add application configuration variables here, as shown below.
+
+aws_secret_key_id: "SECRET_ID"
+aws_access_key_id: "ACCESS_KEY"
+sublime_token: "SUBLIME_VIDEO_TOKEN" # optional
+app_secret_token: 'APP_SECRET_TOKEN'
+development:
+  ffmpeg_location: "FFMPEG_LOCATION"
+  s3_bucket: "S3_BUCKET"
+test:    
+  ffmpeg_location: "FFMPEG_LOCATION"
+  s3_bucket: "S3_BUCKET"
+production:    
+  ffmpeg_location: "FFMPEG_LOCATION"
+  s3_bucket: "S3_BUCKET"

@@ -1,0 +1,6 @@
+<%= form_for @video, html: { multipart: true }, remote: true do |f| %>
+	<div class="fileUpload btn btn-info">
+		<span>Select File  <i class="icon-plus-sign"></i></span>
+		<%= f.file_field  :file, id: "video-test-upload" %>
+	</div>
+<% end %>

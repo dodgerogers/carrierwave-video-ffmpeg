@@ -1,0 +1,8 @@
+<article id='video_<%="#{video.id}" %>' class="videos">
+	<%= image_tag("spinner.gif", class: "loading loading_#{video.id}") %>	
+	<%= link_to image_tag(display_screenshot(video)), video %>
+	<br>
+	<h5><%= link_to truncate(video.filename, length: 25), video %></h5>
+	<p><small><%= video.created_at.strftime("%d/%m/%y")  %></small>
+	<%= link_to raw("<i class='icon-remove-sign'></i>"), video, method: :delete, remote: true, class: "red", id: "delete-video_#{video.id}",	onclick: "$('.loading_#{video.id}').show();" %></p>
+</article>

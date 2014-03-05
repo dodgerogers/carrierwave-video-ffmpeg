@@ -1,0 +1,15 @@
+@mixin box-sizing($value: border-box) {
+	-webkit-box-sizing: $value;
+	-moz-box-sizing: $value;
+	box-sizing: $value;
+}
+@mixin border-radius($value: 0px) {
+	-webkit-border-radius: $value;
+	-moz-border-radius: $value;
+	border-radius: $value;
+}
+@mixin box-shadow($horz: 0px, $vert: 0px, $blur: 0px, $color: #fff) {
+	box-shadow: $horz $vert $blur $color;
+	-webkit-box-shadow: $horz $vert $blur $color;
+	-moz-box-shadow: $horz $vert $blur $color;
+}

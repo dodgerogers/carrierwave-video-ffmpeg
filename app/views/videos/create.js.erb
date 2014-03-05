@@ -1,0 +1,12 @@
+<% if @video.new_record? %>
+	alert("<%= j @video.errors.full_messages.join(', ').html_safe %>");
+<% else %>
+	var video = $("<%= j render(@video) %>").hide();
+	$('#videos').prepend(video);
+	video.fadeIn(1000);
+	$(".video-upload-info").html("").append("<b><i class='icon-ok-sign green'></i> Video uploaded.</b><br>").fadeIn();
+	window.setTimeout(function() { 
+		$("#video-upload").modal('hide'); 
+		$(".video-upload-info").html("");
+	},1500);
+<% end %>
