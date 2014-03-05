@@ -26,4 +26,4 @@ Sublime video works nicely, sign up and download the sublime.js file:
 
 Setup and create the DB:
     rake db:create, rake db:migrate
-    rake jobs:work if using the delayed screenshot # not used by default
+    rake jobs:work # if using the delayed screenshot # not used by default
